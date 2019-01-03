@@ -3,7 +3,7 @@
 * here : http://ace.c9.io/tool/mode_creator.html
 */
 
-define('ace/mode/lpmln',["require","exports","module","ace/lib/oop","ace/mode/text","ace/mode/text_highlight_rules", "ace/worker/worker_client" ],function(require, exports, module) {
+define('ace/mode/lpmln',function(require, exports, module) {
     "use strict";
     var oop = require("../lib/oop");
     var TextHighlightRules = require("./text_highlight_rules").TextHighlightRules;
