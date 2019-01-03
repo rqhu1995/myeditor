@@ -22,10 +22,11 @@
 <div id="editor">%example:
 1:go_out(today,a):-not rain(today),free(a,today).
 </div>
-<script src="/ace-builds/src-noconflict/ace.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js" type="text/javascript"></script>
 <script>
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
+    ace.config.setModuleUrl("ace/mode/lpmln","https://gitcdn.xyz/repo/BobHuNanjing/myeditor/master/ace/mode/mode-lpmln.js")
     editor.session.setMode("ace/mode/lpmln");
 </script>
   <app-root></app-root>
